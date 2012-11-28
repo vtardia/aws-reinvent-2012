@@ -13,3 +13,6 @@ do - but might be worth looking at);
 * twin strata
 
 Also mentioned gluster for shared file systems.
+
+There was a morning session "Media Ingest and Storage Solutions with
+AWS" which might be wroth trying to get the video for.
