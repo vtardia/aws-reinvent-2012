@@ -74,3 +74,29 @@ Replaced 2-way redundent network stuff with N-way
 
 http://mvdirona.com/jrh/talksAndPapers/JamesRH_Lisa.pdf
 http://mvdirona.com/jrh/work/
+
+Questions:
+
+Are there failures that can span multiple AZ?
+
+Try to have things that are *not* going to cover an AZ, in the hardware
+level this shouldn't be the case. There are some higher level facilities
+that may have failures that could cross AZs. Working incredibilly hard
+to ensure that this isn't the case. e.g. software upgrades - you cannot
+deploy to multiple AZs at once.
+
+AZ - seperate power providers / redundant?
+
+Sometimes. But it can be hard due to limited power providers. They don't
+share transformers etc etc. But they are all backed up with generators
+etc.
+
+AZ - multi datacenters?
+
+Yes. At least once DC per AZ, sometimes can be multiple DCs.
+
+
+Is there a multi redundancy modle you like/respect?
+
+Async region shipping can be good, but can add this after multi az
+stuff.
