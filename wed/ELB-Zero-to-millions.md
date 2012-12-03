@@ -45,7 +45,7 @@ to the other origins
 ## Q's for nasa:
 
 Cost effective? Yes, from the point of view of not having to sign
-contracts, or specify how much traffic they'd want. Only paied for what
+contracts, or specify how much traffic they'd want. Only paid for what
 they used.
 
 Failed machines - users would get jitter, as they were basically doing
