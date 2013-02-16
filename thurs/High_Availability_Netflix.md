@@ -1,3 +1,6 @@
+**Links**: [Video](https://www.youtube.com/watch?v=dekV3Oq7pH8&list=PLhr1KZpdzukee0jM3DusklQBs1pPntvDu&index=3) | [Slides](http://www.slideshare.net/AmazonWebServices/arc203-netflixha)
+
+
 Heavily SOA oriented, no single service failure can take the service down.
 
 Their entire environment is duplicated across availability zones using Auto Scaling Groups
